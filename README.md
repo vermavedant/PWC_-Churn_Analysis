@@ -36,6 +36,7 @@ Before creating visualizations, we need to transform the data in the Power Query
 
 ### Visualizations
 Now coming on to Visualizations, we have used:
+
 Cards, Donut Chart, Pie Chart, Stacked Bar Chart & Stacked Column Chart
 
 #### 1. Cards
