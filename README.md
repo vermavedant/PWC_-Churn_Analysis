@@ -187,12 +187,16 @@ Based on the data, here are some insights and findings that can be derived using
 **Financial Impact:** Due to these churned customers:
 - The loss in monthly charges is $139.13k.
 - The loss in total charges is $2.86M.
+
 **Customer Tenure:** Lost 999 customers who joined a year ago.
+
 **Subscription Type:** 1,655 customers who had month-to-month subscriptions left.
+
 **Demographics:** Among the customers we lost:
 - 669 had partners
 - 476 were senior citizens
 - 326 had dependents
+
 **Service Impact:** In terms of internet service:
 - 1,297 customers who had fiber optic internet service left.
 - This represents a 69.4% loss in fiber optic service customers.
