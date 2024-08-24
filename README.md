@@ -202,15 +202,15 @@ Based on the data, here are some insights and findings that can be derived using
 - This represents a 69.4% loss in fiber optic service customers.
 
 #### Here are some suggestions you might find helpful!
-- **1. Behavioral Insights:** Consider segmenting customers based on their usage patterns or service preferences. Understanding what services the churned customers were most and least engaged with can guide service improvement efforts.
+**1. Behavioral Insights:** Consider segmenting customers based on their usage patterns or service preferences. Understanding what services the churned customers were most and least engaged with can guide service improvement efforts.
 
-- **2. Feedback Integration:** Incorporate qualitative data, such as customer feedback or reasons for cancellation, if available. This can help pinpoint specific issues (e.g., poor customer service, high pricing, or technical problems) and guide corrective actions.
+**2. Feedback Integration:** Incorporate qualitative data, such as customer feedback or reasons for cancellation, if available. This can help pinpoint specific issues (e.g., poor customer service, high pricing, or technical problems) and guide corrective actions.
 
-- **3. Competitor Benchmarking:** If possible, compare your churn rates with industry benchmarks or key competitors. If the fiber optic service loss is unusually high compared to industry norms, it might indicate a specific issue that needs addressing.
+**3. Competitor Benchmarking:** If possible, compare your churn rates with industry benchmarks or key competitors. If the fiber optic service loss is unusually high compared to industry norms, it might indicate a specific issue that needs addressing.
 
-- **4. Targeted Offers:** Based on the insights, design targeted retention campaigns. For example, offer special discounts or loyalty programs to customers on month-to-month subscriptions, which seems to be a high-risk group.
+**4. Targeted Offers:** Based on the insights, design targeted retention campaigns. For example, offer special discounts or loyalty programs to customers on month-to-month subscriptions, which seems to be a high-risk group.
 
-- **5. Service Improvements:** For the fiber optic service, consider conducting a focused customer satisfaction survey to understand the exact pain points. Following this, launch service improvements or a re-engagement campaign to win back lost customers.
+**5. Service Improvements:** For the fiber optic service, consider conducting a focused customer satisfaction survey to understand the exact pain points. Following this, launch service improvements or a re-engagement campaign to win back lost customers.
 
-- **6. Early Warning System:** Develop a predictive model that identifies at-risk customers before they churn, based on factors like declining engagement or service usage. This way, you can intervene early with targeted offers or support.
+**6. Early Warning System:** Develop a predictive model that identifies at-risk customers before they churn, based on factors like declining engagement or service usage. This way, you can intervene early with targeted offers or support.
 
