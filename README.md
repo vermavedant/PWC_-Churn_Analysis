@@ -138,7 +138,7 @@ Count of Partner = CALCULATE(
 
 ```
 
-### 9. Count of PhoneService
+### 10. Count of PhoneService
 ```sql
 Count of PhoneService = 
         CALCULATE(
@@ -149,7 +149,7 @@ Count of PhoneService =
 
 ```
 
-### 9. Count of TechSupport
+### 11. Count of TechSupport
 ```sql
 Count of TechSupport = CALCULATE(
     COUNTA(Churn_Data[TechSupport]),
@@ -161,18 +161,18 @@ Count of TechSupport = CALCULATE(
 
 ```
 
-### 9. Lost Customers 
+### 12. Lost Customers 
 ```sql
 Lost Customers = CALCULATE(COUNTA(Churn_Data[Churn]), Churn_Data[Churn]="Yes")
 
 ```
 
-### 9. Lost Monthly Charges
+### 13. Lost Monthly Charges
 ```sql
 Lost Monthly Charges = CALCULATE(SUM(Churn_Data[MonthlyCharges]), Churn_Data[Churn]= "Yes")
 ```
 
-### 9. Lost Total Charges
+### 14. Lost Total Charges
 ```sql
 Lost Total Charges = CALCULATE(SUM(Churn_Data[TotalCharges]), Churn_Data[Churn]= "Yes")
 ```
