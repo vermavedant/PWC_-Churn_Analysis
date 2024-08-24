@@ -196,7 +196,7 @@ Based on the data, here are some insights and findings that can be derived using
 - 1,297 customers who had fiber optic internet service left.
 - This represents a 69.4% loss in fiber optic service customers.
 
-####Here are some suggestions you might find helpful!
+#### Here are some suggestions you might find helpful!
 - **1. Behavioral Insights:** Consider segmenting customers based on their usage patterns or service preferences. Understanding what services the churned customers were most and least engaged with can guide service improvement efforts.
 
 - **2. Feedback Integration:** Incorporate qualitative data, such as customer feedback or reasons for cancellation, if available. This can help pinpoint specific issues (e.g., poor customer service, high pricing, or technical problems) and guide corrective actions.
