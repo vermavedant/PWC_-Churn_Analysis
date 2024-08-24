@@ -195,5 +195,3 @@ Based on the data, here are some insights and findings that can be derived using
 #### **Service Impact:** In terms of internet service:
 - 1,297 customers who had fiber optic internet service left.
 - This represents a 69.4% loss in fiber optic service customers.
-
-# PWC_-Churn_Analysis
