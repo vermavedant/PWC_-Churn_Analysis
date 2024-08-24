@@ -58,7 +58,7 @@ It shows the tenure of lost customers, how long the customer had joined us.
 
 This chart shows the lost customers using different payment method.
 
-![Screenshot (235)](https://github.com/user-attachments/assets/d1a287cc-2304-4efc-91cd-f8ceb551f46b)
+https://github.com/user-attachments/assets/13cc5237-e618-498f-9e75-203432280f5d
 
 ## DAX Measures
 
