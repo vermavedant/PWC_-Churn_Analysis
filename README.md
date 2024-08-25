@@ -63,12 +63,18 @@ https://github.com/user-attachments/assets/13cc5237-e618-498f-9e75-203432280f5d
 
 ## DAX Measures
 
-### 1. Count of Custm_Id
+### 1. Added Column, Tenure_In_Years
+```sql
+Tenure_In_Years = Table.AddColumn(#"Changed Type1", "Tenure_In_Years", each if [tenure] < 12 then "< 1 year" else if [tenure] < 24 then "< 2 years" else if [tenure] < 36 then "< 3 years" else if [tenure] < 48 then "< 4 years" else if [tenure] < 60 then "< 5 years" else "< 6 years")
+)
+```
+
+### 2. Count of Custm_Id
 ```sql
 Count of Custm_Id = COUNTA(Churn_Data[customerID])
 ```
 
-### 2. Count of Dependents
+### 3. Count of Dependents
 ```sql
 Count of Dependents = CALCULATE(
         COUNTA(Churn_Data[Dependents]),
@@ -77,23 +83,22 @@ Count of Dependents = CALCULATE(
     )
 ```
 
-### 3. Average Speed of Answer
+### 4. Average Speed of Answer
 ```sql
 Average Speed of Answer = CALCULATE(AVERAGE(Call_Center[Speed_of_Answers (S)]), Call_Center[Answered (Y/N)]="Y")
 
 ```
 
-### 4. Count of DeviceProtection
+### 5. Count of DeviceProtection
 ```sql
 Count of DeviceProtection = CALCULATE(
     COUNTA(Churn_Data[DeviceProtection]),
     Churn_Data[DeviceProtection] = "Yes",
         Churn_Data[Churn]= "Yes"
 )
-
 ```
 
-### 5. Count of MultipleLines
+### 6. Count of MultipleLines
 ```sql
 Count of MultipleLines = CALCULATE(
         COUNTA(Churn_Data[MultipleLines]),
@@ -102,7 +107,7 @@ Count of MultipleLines = CALCULATE(
     )
 ```
 
-### 6. Count of OnlineBackup
+### 7. Count of OnlineBackup
 ```sql
 Count of OnlineBackup = CALCULATE(
     COUNTA(Churn_Data[OnlineBackup]),
@@ -111,7 +116,7 @@ Count of OnlineBackup = CALCULATE(
 )
 ```
 
-### 7. Count of OnlineSecurity 
+### 8. Count of OnlineSecurity 
 ```sql
 Count of OnlineSecurity = CALCULATE(
     COUNTA(Churn_Data[OnlineSecurity]),
@@ -120,7 +125,7 @@ Count of OnlineSecurity = CALCULATE(
 )
 ```
 
-### 8. Count of PaperlessBilling
+### 9. Count of PaperlessBilling
 ```sql
 Count of PaperlessBilling = CALCULATE(
     COUNTA(Churn_Data[PaperlessBilling]),
@@ -129,7 +134,7 @@ Count of PaperlessBilling = CALCULATE(
 )
 ```
 
-### 9. Count of Partner
+### 10. Count of Partner
 ```sql
 Count of Partner = CALCULATE(
         COUNTA(Churn_Data[Partner]),
@@ -139,7 +144,7 @@ Count of Partner = CALCULATE(
 
 ```
 
-### 10. Count of PhoneService
+### 11. Count of PhoneService
 ```sql
 Count of PhoneService = 
         CALCULATE(
@@ -150,7 +155,7 @@ Count of PhoneService =
 
 ```
 
-### 11. Count of TechSupport
+### 12. Count of TechSupport
 ```sql
 Count of TechSupport = CALCULATE(
     COUNTA(Churn_Data[TechSupport]),
@@ -162,18 +167,18 @@ Count of TechSupport = CALCULATE(
 
 ```
 
-### 12. Lost Customers 
+### 13. Lost Customers 
 ```sql
 Lost Customers = CALCULATE(COUNTA(Churn_Data[Churn]), Churn_Data[Churn]="Yes")
 
 ```
 
-### 13. Lost Monthly Charges
+### 14. Lost Monthly Charges
 ```sql
 Lost Monthly Charges = CALCULATE(SUM(Churn_Data[MonthlyCharges]), Churn_Data[Churn]= "Yes")
 ```
 
-### 14. Lost Total Charges
+### 15. Lost Total Charges
 ```sql
 Lost Total Charges = CALCULATE(SUM(Churn_Data[TotalCharges]), Churn_Data[Churn]= "Yes")
 ```
